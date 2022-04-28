@@ -1,6 +1,7 @@
 import ProfilePicture from "../images/business-card-profile-picture.png"
 import ButtonBar from "./ButtonBar.js"
 import Content from "./Content.js"
+import Footer from "./Footer.js"
 
 export default function Header()
 {
@@ -14,6 +15,7 @@ export default function Header()
             </div>
             <ButtonBar/>
             <Content/>
+            <Footer/>
         </div>
     )
 }
