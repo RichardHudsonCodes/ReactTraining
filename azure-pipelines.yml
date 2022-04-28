@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'c84f9d08-cda5-427e-8368-c2d54dc03989'
   imageRepository: 'businesscardazurecrio'
   containerRegistry: 'businesscard.azurecr.io'
-  dockerfilePath: '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+  dockerfilePath: '/var/lib/docker/volumes/volume-ReactTraining-vigilant_matsumoto/_data'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
